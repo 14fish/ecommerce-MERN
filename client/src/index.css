@@ -1,0 +1,105 @@
+main {
+  min-height: 90vh;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.carousel-item-next,
+.carousel-item-prev
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+}
+
+.carousel-caption h2 {
+  color: white;
+  background-color: #343A40;
+}
+
+.carousel img {
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+  border-radius: 50%;
+}
+
+.form-inline button {
+  margin-left: 10px;
+}
+
+.carousel a {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel img {
+    width: 90%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-caption h2 {
+    color: white;
+    font-weight: 100;
+    background-color: #343A40;
+    font-size: 10px;
+  }
+
+  .form-inline {
+    margin-top: 10px;
+  }
+
+  .form-inline button {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  /* .carousel img {
+    width: 350px;
+    height: 350px;
+  } */
+
+  .form-inline button {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .carousel-caption h2 {
+    font-size: 15px;
+  }
+
+  /* .carousel img {
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+  } */
+
+  .form-inline button {
+    margin-left: 0;
+  }
+}
